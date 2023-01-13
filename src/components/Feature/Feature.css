@@ -38,10 +38,16 @@
 }
 
 @media screen and (max-width: 550px) {
+  .gpt3__feature-container__title {
+    text-align: center;
+  }
   .gpt3__feature-container__title h1 {
     font-size: 20px;
   }
   .gpt3__feature-container__text p {
     font-size: 15px;
+  }
+  .gpt3__feature-container__title div {
+    margin: auto;
   }
 }
