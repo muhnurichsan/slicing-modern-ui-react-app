@@ -16,6 +16,15 @@
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 2rem;
 }
+@media screen and (max-width: 990px) {
+  .gpt3__blog-container {
+    flex-direction: column-reverse;
+  }
+  .gpt3__blog-container__groupA {
+    margin-top: 2rem;
+    width: 100%;
+  }
+}
 
 @media screen and (max-width: 700px) {
   .gpt3__blog-container__groupA {
